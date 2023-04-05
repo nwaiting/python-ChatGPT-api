@@ -2,7 +2,7 @@
 
 <br>
 <p align="center">
-    <a href="#"><img src=""></a>
+    <a href="#"><img src="https://github.com/nwaiting/python-ChatGPT/tree/master/img/python-3.7.svg"></a>
 </p>
 <br />
 
@@ -14,7 +14,7 @@
 ## Install
 #### *How you run*
 
-<p> 在chattools/config.py中配置key 在[官网](https://api.openai.com/v1/chat/completions)申请api的key </p>
+<p> 在chattools/config.py中配置key 在 [官网](https://api.openai.com/v1/chat/completions) 申请api的key </p>
 <p> 可以手动修改需要使用的模型，在chattools/config.py的CHATGPT_MODEL配置需要使用的模型名字 </p>
 
 ```python
@@ -22,5 +22,5 @@ python chatgpt.py
 
 ```
 
-## WX 
-![](https:///wx201911181627012x.png?x-oss-process=image/resize,h_150)
+## 微信
+![](https://github.com/nwaiting/python-ChatGPT/tree/master/img/wx.png?x-oss-process=image/resize,h_150)
