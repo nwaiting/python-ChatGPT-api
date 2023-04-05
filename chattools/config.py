@@ -1,0 +1,3 @@
+CHATGPT_KEY = '123456'
+CHATGPT_MODEL = 'test'
+
