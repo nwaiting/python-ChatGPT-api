@@ -23,4 +23,5 @@ python chatgpt.py
 ```
 
 ## 微信
-![image](img/wx.png?x-oss-process=image/resize,h_50)
+
+<img src="img/wx.png" width="249"/>
