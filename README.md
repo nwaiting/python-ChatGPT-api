@@ -23,4 +23,4 @@ python chatgpt.py
 ```
 
 ## 微信
-![](https://github.com/nwaiting/python-ChatGPT/tree/master/img/wx.png?x-oss-process=image/resize,h_150)
+![image](img/wx.png?x-oss-process=image/resize,h_150)
