@@ -14,12 +14,19 @@
 ## Install
 #### *How you run*
 
-在chattools/config.py中配置key 在 [官网](https://api.openai.com/v1/chat/completions) 申请api的key
+在chattools/config.py中配置key 在 [官网]https://platform.openai.com/account/api-keys) 申请api的key
 
-可以手动修改需要使用的模型，在chattools/config.py的CHATGPT_MODEL配置需要使用的模型名字
+可以手动修改需要使用的模型，在chattools/config.py的CHATGPT_CHAT_MODEL配置聊天的模型名字，在chattools/config.py的CHATGPT_IMAGE_MODEL配置生成图片的模型名字
 
 ```python
-python chatgpt.py
+python chatgpt_main.py -h
+可以查看现有的功能，现在有聊天和生产图片功能
+
+python chatgpt_main.py -t chat
+进入聊天模式
+
+python chatgpt_main.py -t image
+进入生成图片模式
 
 ```
 
