@@ -23,5 +23,4 @@ python chatgpt.py
 ```
 
 ## 微信
-
 <img src="img/wx.png" width="249"/>
