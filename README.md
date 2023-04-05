@@ -3,7 +3,6 @@
 <br>
 <p align="center">
     <a href="#"><img src="https://img.shields.io/badge/python-3.7-green.svg"></a>
-    ![image](img/wx.png?x-oss-process=image/resize,h_100)
 </p>
 <br />
 
@@ -24,4 +23,4 @@ python chatgpt.py
 ```
 
 ## 微信
-![image](img/wx.png?x-oss-process=image/resize,h_100)
+![image](img/wx.png?x-oss-process=image/resize,h_50)
