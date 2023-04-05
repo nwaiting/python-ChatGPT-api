@@ -14,8 +14,8 @@
 ## Install
 #### *How you run*
 
-<p> 在chattools/config.py中配置key 在 [[官网](https://api.openai.com/v1/chat/completions)] 申请api的key </p>
-<p> 可以手动修改需要使用的模型，在chattools/config.py的CHATGPT_MODEL配置需要使用的模型名字 </p>
+    在chattools/config.py中配置key 在 [官网](https://api.openai.com/v1/chat/completions) 申请api的key
+    可以手动修改需要使用的模型，在chattools/config.py的CHATGPT_MODEL配置需要使用的模型名字
 
 ```python
 python chatgpt.py
