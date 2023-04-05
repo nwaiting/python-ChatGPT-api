@@ -32,4 +32,4 @@ python chatgpt_main.py -t image
 ```
 
 ## 微信
-![image](img/wx.png)
+<img src="img/wx.png" width="249"/>
