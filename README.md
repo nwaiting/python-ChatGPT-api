@@ -1,4 +1,4 @@
-# <p align="center">python-ChatGPT</p>
+# <p align="center">python-ChatGPT-api</p>
 
 <br>
 <p align="center">
