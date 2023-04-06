@@ -15,10 +15,11 @@ def chat():
     mychat = MyChatGPT(CHATGPT_KEY)
     mychat.select_model(CHATGPT_CHAT_MODEL)
     logger.info("开始聊天, 输入 quit 退出")
-    c = input('>>:')
+    c = input('>>')
     while c != 'quit':
         r = mychat.chat(c)
-        c = input('>>:')
+        logger.info("gpt:{}".format(r))
+        c = input('>>')
     logger.info("聊天结束")
 
 
@@ -26,11 +27,11 @@ def image():
     mychat = MyChatGPT(CHATGPT_KEY)
     mychat.select_model(CHATGPT_IMAGE_MODEL)
     logger.info("开始生成图片, 输入 quit 退出")
-    c = input('>>:')
+    c = input('>>')
     while c != 'quit':
-        r = mychat.chat(c)
+        r = mychat.create_image(c)
         logger.info("images:{}".format(r))
-        c = input('>>:')
+        c = input('>>')
     logger.info("生成图片结束结束")
 
 
